@@ -32,6 +32,15 @@ h2{
 
 /* Our Services Styles End */
 
+.missionStatement {
+  background-color: #333333;
+  color: white;
+}
+
+.GoogleMap{
+  padding-bottom: 18px;
+}
+
 /* Footer Styles Go Here */
 
 footer {
