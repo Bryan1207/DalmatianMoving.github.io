@@ -1,21 +1,4 @@
-footer {
-	background-color: #333333;
-	padding-bottom: 40px;
-
-}
-footer ul {
-	list-style: none;
-	width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.FooterSocialItems {
-	color: white;
-	float: left;
-	position: relative;
-  	display: block;
-  	padding: 10px 15px;
-}
+/* Navbar Styles Go here */
 
 .nav-ul{
   padding:15px;
@@ -27,10 +10,58 @@ footer ul {
 
 .nav-ul li{
   display: inline;
-  margin:0px 20px;
+  margin:0px 15px;
   
 
 }
+
+/* Navbar Styles End */
+
+/* Slideshow Styles Go Here */
+
 .carousel-inner{
   height: 460px;
 }
+
+/* Slideshow Styles End */
+
+/* Our Services Styles Start */
+
+
+.ServicesTitle {
+  text-align: center;
+}
+
+
+/* Our Services Styles End */
+
+/* Footer Styles Go Here */
+
+footer {
+	background-color: #333333;
+	padding-bottom: 40px;
+
+}
+footer ul {
+	list-style: none;
+	width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.FooterSocial{
+  padding-top: 20px;
+}
+.FooterSocialItems {
+	color: white;
+	float: left;
+	position: relative;
+  	display: block;
+  	padding: 10px 15px;
+}
+
+.footp {
+padding-bottom: 0px;
+}
+
+/* Footer Styles End */
