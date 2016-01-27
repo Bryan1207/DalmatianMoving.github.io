@@ -20,14 +20,7 @@
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -36,41 +29,24 @@
     <div class="address-bar">Serving The Dallas Area| 408.762.8840</div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Moversz</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">About Us</a>
-                    </li>
-                    <li>
-                        <a href="about.html">Moving Services</a>
-                    </li>
-                    <li>
-                        <a href="blog.html">Moversz vs. Others</a>
-                    </li>
-                    <li>
-                        <a href="contact.html">Get A Qoute</a>
-                    </li>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+                <ul class="nav-ul">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="#">something els</a></li>
                 </ul>
             </div>
-            <!-- /.navbar-collapse -->
+            <div class="col-sm-2">
+                 <button type="button" class="btn btn-warning btn-lg">Get a Quote</button>
+          </div
+            </div>
         </div>
-        <!-- /.container -->
-    </nav>
-
+    </div>
+    
+<!--this is the carousel section--> 
     <div class="container">
 
         <div class="row">
@@ -118,22 +94,46 @@
                 </div>
             </div>
         </div>
-        <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:400px;width:793px;margin: auto;'><div id='gmap_canvas' style='height:400px;width:793px;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div> <a href='https://add-map.org/'>google map html embed</a> <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=9f07813e442b3aab7a881a028613049eff34341c'></script><script type='text/javascript'>function init_map(){var myOptions = {zoom:9,center:new google.maps.LatLng(32.7766642,-96.79698789999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(32.7766642,-96.79698789999998)});infowindow = new google.maps.InfoWindow({content:'<strong></strong><br><br> dallas<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
 
+<!--this is our servises section-->
 
+          <div class="container">
+      <div class="row">
+      <h1>Our services</h1>
+          <div class="col-sm-4">
+          <img src="http://placehold.it/100x100" class="img-circle">
+          <h2>Apppartments</h2>
+          <p> hear is some bullshit about how im awsome and you should come spend your money with me </p>
 
+          </div>
+          <div class="col-sm-4">
+          <img src="http://placehold.it/100x100" class="img-circle">
+          <h2>Homes</h2>
+           <p> hear is some bullshit about how im awsome and you should come spend your money with me </p>
 
-    <footer>
-        <div class="container">
+          </div>
+          <div class="col-sm-4">
+          <img src="http://placehold.it/100x100" class="img-circle">
+          <h2>Office</h2>
+           <p> hear is some bullshit about how im awsome and you should come spend your money with me </p>
+
+          </div>
+      </div>
+    
+  </div>
+
+    <footer class="foot">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p>Copyright &copy; Your Website 2014</p>
-                    <div>
+                    <div class="FooterSocial">
                         <ul>
-                            <li>About</li>
-                            <li>About</li>
-                            <li>About</li>
-                            <li>About</li>
+                            <li class="FooterSocialItems">Read Our Reviews on Yelp</li>
+                            <li class="FooterSocialItems">Check Us Out on Facebook</li>
+                            <li class="FooterSocialItems">Follow Us on Twitter</li>
+                            <li class="FooterSocialItems">Check our Reviews on Google</li>
                         </ul>
                     </div>
                 </div>

@@ -11,6 +11,8 @@ body {
     background-size: cover;
     -o-background-size: cover;
     background-color: white;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1,
@@ -190,4 +192,8 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+footer{
+    
 }

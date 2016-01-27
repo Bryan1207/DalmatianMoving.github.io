@@ -1,0 +1,33 @@
+footer {
+	background-color: #333333;
+	padding-bottom: 40px;
+
+}
+footer ul {
+	list-style: none;
+	width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.FooterSocialItems {
+	color: white;
+	float: left;
+	position: relative;
+  	display: block;
+  	padding: 10px 15px;
+}
+
+.nav-ul{
+  padding:15px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  text-align: center;
+
+}
+
+.nav-ul li{
+  display: inline;
+  margin:0px 20px;
+  
+
+}
