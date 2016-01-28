@@ -3,20 +3,43 @@ h2{
   text-align: center;
 }
 .nav-ul{
-  padding:15px;
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  text-align: center;
-
+ padding: 12px;
+ border-bottom: 2px solid;
+ text-align: center;
 }
-
+/*this is to specificaly taget the li inside the ul*/
 .nav-ul li{
   display: inline;
-  margin:0px 15px;
-  
-
+  margin:0px 20px;
+}
+/*this just gives the navigation on top space at the top*/
+.topNav{
+  margin-top: 50px;
+}
+/*this specificaly targets the a tags that each nav in inside*/
+.nav-ul a {
+  color:black;
+  font-size: 25px;
+  font-family: 'Crimson Text', serif;
+}
+/*this is the placeholder logo ,but for now it looks good */
+.logoPic {
+  height:150px;
+  width:150px;
 }
 
+/*this is for the get a quote button*/
+.quoteB{
+  margin-top: 50px;
+}
+
+/* this specificaly targets the words inside the button */
+
+.quoteB a{
+  color:white;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+}
 /* Navbar Styles End */
 
 
