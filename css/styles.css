@@ -56,10 +56,12 @@ h2{
 /* Our Services Styles End */
 
 .missionStatement {
-  background-color: #333333;
+  background-color: rgb(51,122,183);
   color: white;
 }
-
+#blue{
+    background-color: rgb(51,122,183);
+}
 .GoogleMap{
   padding-bottom: 18px;
 }
